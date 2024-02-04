@@ -1,0 +1,27 @@
+body{
+    background-color: lightgrey;
+}
+
+h1{
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+h2{
+    text-align: center;
+
+ }
+
+.Eingabe{
+    text-align: center;
+
+}
+
+.Steckbrief{
+    position: absolute;
+    top: 160px;
+    left: 390px;
+    right: 390px;
+    background-color: white;
+    padding: 60px;
+}

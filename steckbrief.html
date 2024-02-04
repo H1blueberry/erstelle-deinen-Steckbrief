@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>steckbrief</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link href="static/home.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Steckbrief</h1>
+        <div class="Steckbrief">
+            <h2>{{ title }}</h2>
+            <hr>
+            <ul>
+                {% for i in info %}
+                <li><p>{{ i }}</p></li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="Neu">
+            <form action="/steckbrief", method="post">
+                <button name="neu" value="2">Erstelle einen neuen Steckbrief</button>
+            </form>
+        </div class="inputs">
+    </body>
+
+</html>
